@@ -1,26 +1,30 @@
 # 03-studio-site
 
-✨ Professional Repository Showcase Template
-
-## Live Deployments
-- Netlify: https://mk-knight23-03-studio-site.netlify.app
-- GitHub Pages: https://mk-knight23.github.io/03-studio-site/
-
-Status: 🟢 Live
-Last Updated: 2026-01-21T13:52:00+05:30
+✨ A boutique creative studio landing page featuring high-fidelity visuals, immersive typography, and a refined brand narrative.
 
 ## Features
-- 📱 Mobile Responsive
-- ⚡ Fast Performance
-- 🎨 Modern UI/UX
+- 🎭 Premium Creative Studio Aesthetic
+- 🖼️ Visual Storytelling Hero & Gallery
+- 📱 Responsive Multi-Device Layouts
+- ⚛️ Engineered with React 18
+- ⚡ High-Performance Builds via Vite 6
+
+## Tech Stack
+- **Frontend**: React 18, Tailwind CSS v4
+- **Build Tool**: Vite 6
+- **Animations**: Framer Motion, GSAP
+- **Icons**: Lucide React
 
 ## Quick Start
 ```bash
-git clone https://github.com/mk-knight23/03-studio-site.git
-cd 03-studio-site
 npm install
 npm run dev
 ```
 
-## License
-MIT
+## Documentation
+Additional technical details can be found in the [docs/](docs/) directory.
+
+## Live Deployment
+GitHub Pages: [Pending]
+Status: 🟡 Initializing Pipeline
+Last Updated: 2026-01-21
