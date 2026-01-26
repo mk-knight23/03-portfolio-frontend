@@ -1,43 +1,55 @@
-# 03-studio-site
+# portfolio-studio-website
 
-✨ A boutique creative studio landing page featuring high-fidelity visuals, immersive typography, and a refined brand narrative.
+Studio portfolio website showcasing creative and technical work.
 
-## Features
-- 🎭 Premium Creative Studio Aesthetic
-- 🖼️ Visual Storytelling Hero & Gallery
-- 📱 Responsive Multi-Device Layouts
-- ⚛️ Engineered with React 18
-- ⚡ High-Performance Builds via Vite 6
-
-## Tech Stack
-- **Frontend**: React 18, Tailwind CSS v4
-- **Build Tool**: Vite 6
-- **Animations**: Framer Motion, GSAP
-- **Icons**: Lucide React
-
-## Quick Start
-```bash
-npm install
-npm run dev
-```
-
-## Documentation
-- [Architecture Overview](docs/ARCHITECTURE.md)
-- [Design System](docs/DESIGN.md)
-- [Deployment Guide](docs/DEPLOY.md)
-
-## Live Deployment
-- **GitHub Pages**: [https://mk-knight23.github.io/03-studio-site/](https://mk-knight23.github.io/03-studio-site/)
-- **Status**: 🟢 Live
-- **Modernized**: 2026-01-23
+Part of the MUSHARRAF KAZI portfolio ecosystem — AI Engineer & Indie Builder
+specializing in Agentic AI, Developer Tools, Multi-LLM Routing, and SaaS Automation.
 
 ---
-*Maintained by [Kazi Musharraf](https://github.com/mk-knight23)*
 
-## 🌐 Live Deployments
+## About
 
-- Vercel: https://03-studio-site.vercel.app
-- GitHub Pages: https://mk-knight23.github.io/03-studio-site/
+A studio-style portfolio presenting selected projects and work samples,
+demonstrating expertise in AI systems, web development, and product building.
 
-Status: 🟢 Deployments Live  
-Last Updated: 2026-01-23
+---
+
+## VIBE Ecosystem (Flagship Project)
+
+**Founder & AI Engineer**
+
+A multi-product AI developer platform:
+
+| Product | Description |
+|---------|-------------|
+| VIBE CLI | Multi-agent AI coding tool with TUI and LLM routing |
+| VIBE VS Code | IDE assistant with state-machine orchestration |
+| VIBE Web | Documentation and onboarding hub |
+| VIBE Chat | AI website builder with generative agents |
+
+---
+
+## Focus Areas
+
+- **Agentic AI** — Multi-agent systems, RAG, LLM orchestration
+- **Developer Tools** — CLI, VS Code extensions, automation
+- **SaaS Products** — Full-stack applications, platforms
+- **Web Development** — React, Next.js, TypeScript
+
+---
+
+## Core Skills
+
+- AI/ML Engineering (RAG, Agents, LLMs)
+- System Architecture & Product Strategy
+- Full-Stack Web Development
+- Developer Experience (DX) Design
+- Cloud Infrastructure & CI/CD
+
+---
+
+## Connect
+
+- **Email:** mk.knight970@gmail.com
+- **GitHub:** [@mk-knight23](https://github.com/mk-knight23)
+- **LinkedIn:** [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
