@@ -1,5 +1,11 @@
 # Kazi Musharraf — Frontend Developer
 
+## 🚀 Live Demo
+
+This portfolio is deployed to multiple platforms:
+
+
+
 **Crafting Pixel-Perfect UI/UX with React, TypeScript & GSAP**
 
 ---
