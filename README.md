@@ -1,168 +1,161 @@
-# Kazi Musharraf — Frontend Developer
+# 03 Portfolio Frontend — Kazi Musharraf
 
-## 🚀 Live Demo
+> **Motion-first portfolio showcasing UI craft and design systems.**
+> Built for creative agencies and design-focused teams.
 
-This portfolio is deployed to multiple platforms:
-
-
-
-**Crafting Pixel-Perfect UI/UX with React, TypeScript & GSAP**
-
----
-
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222222?style=for-the-badge&logo=github)](https://mk-knight23.github.io/03-portfolio-frontend/)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://03-portfolio-frontend.vercel.app/)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://03-portfolio-frontend.netlify.app/)
-[![Source](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/03-portfolio-frontend)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Frontend-9333ea?style=for-the-badge&logo=firefox&logoColor=white)](https://mk-knight-frontend.web.app)
+[![GitHub](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/03-portfolio-frontend)
+[![Ecosystem](https://img.shields.io/badge/60%20Projects-Ecosystem-10b981?style=for-the-badge)](https://www.mkazi.live)
 
 ---
 
-## About
+## What Is This?
 
-Frontend Developer specializing in React, TypeScript, UI/UX design, and creating pixel-perfect, responsive web applications. Currently building the **AI-VIBE-ECOSYSTEM v2.0** — a multi-product, agent-driven developer platform.
+This is **Portfolio #03 — Frontend**, a motion-first portfolio designed for creative agencies and design-focused teams. Built with HTML/CSS/JS and GSAP animations, it showcases my work through **movement, interaction, and visual storytelling**.
 
----
-
-## 🏗️ What I’m Building
-
-I am architecting **AI-VIBE-ECOSYSTEM v2.0**, a human-first developer platform where agents don't just write code—they collaborate within a unified system architecture. This ecosystem exists to bridge the gap between high-level intent and production-grade execution by treating AI as a first-class citizen in the developer's toolkit. This portfolio represents the **Frontend lens** into that system, focusing on the refined UX and component systems that power agentic interaction.
+One of **eight specialized portfolio experiences**, this version emphasizes the craft of frontend development.
 
 ---
 
-## 🧩 The AI-VIBE Products (Frontend Focus)
+## The Story: Motion as Narrative
 
-While the ecosystem spans 5 products, my work here focuses on the visual and interactive layers:
+### Why Motion Matters
 
-- **AI-VIBE-WebBuilder**: The generative site architect. I focus on creating design-system-aware agents that build accessible, pixel-perfect interfaces.
-- **AI-VIBE-ChatWeb**: The human-agent conversational hub. I work on real-time streaming interfaces, complex state management, and intuitive UX for agentic workflows.
-- **AI-VIBE-VSCode**: Mirroring the web experience in the IDE, ensuring a unified design language across platforms.
-- *Integrations*: Collaborating with **Automation** and **CLI** teams to ensure that background logic is always reflected clearly in the UI.
+Animation isn't decoration — it's **communication**:
 
----
+| Motion Type | Purpose | Example |
+|-------------|---------|---------|
+| **Entrance** | Guide attention | Elements fade/slide into view |
+| **Transition** | Show relationships | Smooth page/section changes |
+| **Feedback** | Confirm actions | Button states, hover effects |
+| **Delight** | Create emotion | Playful micro-interactions |
 
-## ⚙️ How This Portfolio Fits the Ecosystem
+### The 60 Projects Evolution
 
-This portfolio demonstrates the **User Experience (UX) & Design Systems** layer of the AI-VIBE-ECOSYSTEM. It showcases how we build interfaces that make complex agentic operations feel simple and intuitive. It aligns with the **ChatWeb → WebBuilder** workflow, where a conversation becomes a visual reality through a series of human-approved steps.
+From static pages to **interactive experiences**:
 
----
+1. **Static HTML** — Information display
+2. **CSS Animations** — Basic transitions
+3. **JavaScript Interactions** — User-triggered effects
+4. **GSAP + Canvas** — Complex motion design (current)
+5. **WebGL/Three.js** — 3D immersive experiences (next)
 
-## 🤖 Agents & Workflows I Use
+### Frontend-First Philosophy
 
-In building this ecosystem, I leverage specialized agent workflows:
-- **Architect & Planner**: Used to visualize component hierarchies and user flows before implementation.
-- **Code Reviewer**: Maintaining high standards for frontend performance, accessibility, and bundle sizes.
-- **TDD Guide**: Ensuring that our complex UI interactions are stable and testable across all devices.
-
----
-
-## 💎 Design & Quality Principles
-
-- **Human-First Development**: Design is not just how it looks, but how agents and humans interact within a shared space.
-- **Precision by Default**: Pixel-perfect execution is a requirement, not a goal.
-- **Progressive Complexity**: Interfaces that are easy to start with but offer deep power for advanced workflows.
-- **Tradeoffs Accepted**: Choosing studio-style GSAP animations for this portfolio to demonstrate the level of polish and kinetic energy I bring to product interfaces.
-
----
-
-
-## Features
-
-- **Resume & Cover Letter Sections** — Complete professional history and 3-6 month impact plan
-- **VIBE Ecosystem Showcase** — Multi-product AI developer platform overview
-- **Studio-Style Portfolio** — Clean, editorial design with smooth GSAP animations
-- **Contact & Social Links** — Direct access to email, phone, GitHub, and LinkedIn
+```
+Design Intent → Motion Spec → Implementation → Performance Optimization → Delight
+```
 
 ---
 
 ## Tech Stack
 
-- **Framework:** Vite 6.x, TypeScript
-- **Design:** Studio-style editorial layout
-- **Fonts:** Space Grotesk, Space Mono
-- **Animations:** GSAP with ScrollTrigger
-- **Deployment:** GitHub Pages, Vercel, Netlify
+| Category | Technology |
+|----------|------------|
+| **Structure** | HTML5 |
+| **Styling** | CSS3 (Custom Properties, Grid, Flexbox) |
+| **Animations** | GSAP + ScrollTrigger |
+| **Effects** | Canvas API (neural network background) |
+| **Typography** | Space Grotesk, Space Mono |
+| **Build** | Vite |
+| **Deployment** | Firebase Hosting |
 
 ---
 
-## Deployment
+## Design System
 
-| Platform | URL |
-|----------|-----|
-| **GitHub Pages** | [mk-knight23.github.io/03-portfolio-frontend](https://mk-knight23.github.io/03-portfolio-frontend/) |
-| **Vercel** | [03-portfolio-frontend.vercel.app](https://03-portfolio-frontend.vercel.app/) |
-| **Netlify** | [03-portfolio-frontend.netlify.app](https://03-portfolio-frontend.netlify.app/) |
-| **Render** | [zero3-portfolio-frontend.onrender.com](https://zero3-portfolio-frontend.onrender.com/) |
+### Colors
 
+```css
+--bg: #0a0a0f;
+--bg-alt: #12121a;
+--text: #ffffff;
+--accent-1: #00f5d4;  /* Cyan */
+--accent-2: #ff006e;  /* Pink */
+--accent-3: #8338ec;  /* Purple */
+```
+
+### Typography
+
+- **Headings**: Space Grotesk (300-700)
+- **Body**: Space Grotesk (400)
+- **Code/Labels**: Space Mono (400, 700)
+
+### Motion Principles
+
+1. **Purposeful**: Every animation serves a function
+2. **Performant**: 60fps on all devices
+3. **Respectful**: `prefers-reduced-motion` support
+4. **Consistent**: Unified easing and timing
 
 ---
 
-## Local Setup
+## 8 Portfolio Ecosystem
+
+This is **#03 of 8** specialized experiences:
+
+| # | Portfolio | Theme | URL |
+|---|-----------|-------|-----|
+| 01 | DevTools | Terminal/CLI | [Live](https://portfolio-devtools.web.app) |
+| 02 | Fullstack | Clean SaaS | [Live](https://mk-knight-fullstack.web.app) |
+| 03 | **Frontend** | Motion Design | [Live](https://mk-knight-frontend.web.app) |
+| 04 | Backend | Editorial | [Live](https://mk-knight-backend.web.app) |
+| 05 | Frontend AI | AI Lab | [Live](https://mk-knight-frontend-ai.web.app) |
+| 06 | Senior Frontend | Swiss Minimal | [Live](https://mk-knight-senior-frontend.web.app) |
+| 07 | Indie SaaS | Startup Style | [Live](https://portfolio-indie-saas.web.app) |
+| 08 | AI Automation | Systems Flow | [Live](https://portfolio-ai-automation.web.app) |
+
+---
+
+## Featured Projects
+
+### Motion-Heavy Implementations
+
+| Project | Tech | Motion Highlights |
+|---------|------|-------------------|
+| Country Explorer | React + Framer Motion | Page transitions, data viz animations |
+| Recipe Finder | Vue + CSS | Hover states, loading sequences |
+| Meme Generator | React + Canvas | Real-time image manipulation |
+| Mini Games | React | Game loops, sprite animations |
+
+### View All 60 Projects
+
+🔗 **[https://www.mkazi.live](https://www.mkazi.live)**
+
+---
+
+## Development
 
 ```bash
-# Clone the repository
+# Clone
 git clone https://github.com/mk-knight23/03-portfolio-frontend.git
-
-# Navigate to project
 cd 03-portfolio-frontend
 
-# Open in browser
-open index.html
+# Install
+npm install
+
+# Dev server
+npm run dev
+
+# Build
+npm run build
 ```
 
 ---
 
-## Contact
+## About Me
 
-- **Email:** [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
-- **Phone:** +91 9765490536
-- **GitHub:** [mk-knight23](https://github.com/mk-knight23)
-- **LinkedIn:** [kazi-musharraf-0674871a4](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
-- **Location:** Hyderabad, India
+**Kazi Musharraf** — Frontend Engineer specializing in motion and design systems.
 
----
+### Connect
 
-## Additional Features (vNext)
-
-Three focused additions for accessibility and performance:
-
-### Reduced Motion Support
-**Why added:** Studio portfolios often go heavy on animations. That's great for demos, but not for everyone. Vestibular disorders, preference settings—I wanted to respect those.
-
-**What changed:** Now checks `prefers-reduced-motion` and conditionally runs GSAP animations. When reduced motion is detected, custom cursor hides and all scroll-triggered animations are skipped. Content remains accessible without motion.
-
-### Performance Mode Toggle
-**Why added:** Not everyone who prefers reduced motion has the system setting enabled. Some just want a faster experience on slower devices.
-
-**What changed:** Added an "Animations: ON/OFF" toggle in the navigation. Persists to localStorage. When off, hides custom cursor and disables all GSAP animations. Users get control without digging into system settings.
-
-### Improved Focus States
-**Why added:** Keyboard navigation is part of accessible design. Default browser focus rings often clash with custom designs and get removed.
-
-**What changed:** Added custom `:focus-visible` styles with the accent color (#EDBFFF) and proper outline-offset. Nav links, cards, and buttons now have visible, respectful focus indicators that don't break the visual design.
-
-### Intentionally Rejected: Micro-interaction Overload
-I considered adding hover effects to every element—buttons, cards, links, headings. Rejected because studio design should feel confident, not desperate for attention. Strategic motion on key actions (CTAs, project cards) is more impactful than everything wiggling all the time.
-
+- 📧 **Email**: [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
+- 💻 **GitHub**: [@mk-knight23](https://github.com/mk-knight23)
+- 💼 **LinkedIn**: [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+- 🌐 **Portfolio Hub**: [https://www.mkazi.live](https://www.mkazi.live)
 
 ---
 
-*Last Updated: January 31, 2026*
+*Part of the 60 Projects Ecosystem — Built with motion and ☕*
 
----
-
-## 🌐 Live Web Projects (09-16)
-
-View my deployed web applications:
-
-| # | Project | Live URL | Stack |
-|---|---------|----------|-------|
-| 09 | Geographic Explorer | [Live](https://09-web-geographic-explorer.vercel.app) | React 19 + TypeScript + Tailwind |
-| 10 | Time Display | [Live](https://10-web-time-display.vercel.app) | React 19 + TypeScript + Tailwind |
-| 11 | Keyboard Practice | [Live](https://11-web-keyboard-practice.vercel.app) | React 19 + TypeScript + Tailwind |
-| 12 | Editorial Blog | [Live](https://12-web-editorial-blog.vercel.app) | React 19 + TypeScript + Tailwind |
-| 13 | Brutalist Content | [Live](https://13-web-brutalist-content.vercel.app) | React 19 + TypeScript + Tailwind |
-| 14 | AI Research | [Live](https://14-web-ai-research.vercel.app) | React 19 + TypeScript + Tailwind |
-| 15 | Luxury Boutique | [Live](https://15-web-luxury-boutique.vercel.app) | React 19 + TypeScript + Tailwind |
-| 16 | Editorial Layouts | [Live](https://16-web-editorial-layouts.vercel.app) | React 19 + TypeScript + Tailwind |
-
-*All projects verified live on 2026-02-03*
+*Last Updated: February 2026*
