@@ -145,6 +145,100 @@ npm run build
 
 ---
 
+## 🏗️ Architecture
+
+### Project Structure
+
+```
+03-portfolio-frontend/
+├── src/
+│   ├── components/       # Reusable components
+│   │   ├── animations/   # Animation wrappers
+│   │   │   ├── FadeIn.tsx
+│   │   │   ├── SlideUp.tsx
+│   │   │   └── Stagger.tsx
+│   │   ├── layout/       # Layout components
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Container.tsx
+│   │   ├── sections/     # Page sections
+│   │   │   ├── Hero.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── Skills.tsx
+│   │   │   └── Contact.tsx
+│   │   └── ui/           # UI components
+│   │       ├── Button.tsx
+│   │       ├── Card.tsx
+│   │       └── Badge.tsx
+│   ├── animations/       # GSAP configurations
+│   │   ├── timeline.ts
+│   │   ├── scrollTrigger.ts
+│   │   └── easings.ts
+│   ├── styles/           # Global styles
+│   │   ├── main.css
+│   │   ├── variables.css
+│   │   └── typography.css
+│   ├── effects/          # Canvas effects
+│   │   └── neural-network.ts
+│   └── utils/            # Utility functions
+│       ├── debounce.ts
+│       └── throttle.ts
+├── public/               # Static assets
+├── index.html            # HTML entry point
+├── package.json          # Dependencies
+├── vite.config.ts        # Vite configuration
+├── tsconfig.json         # TypeScript configuration
+└── tailwind.config.ts    # Tailwind configuration
+```
+
+### Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Structure** | HTML5 |
+| **Styling** | CSS3 (Custom Properties, Grid, Flexbox) |
+| **Animations** | GSAP + ScrollTrigger |
+| **Effects** | Canvas API (neural network background) |
+| **Typography** | Space Grotesk, Space Mono |
+| **Build Tool** | Vite |
+| **Deployment** | Firebase Hosting |
+
+### Key Architectural Patterns
+
+- **Motion-First**: Animations guide the user experience
+- **Performance Optimization**: Request animation frames, debounce/throttle
+- **Accessibility**: `prefers-reduced-motion` support
+- **Progressive Enhancement**: Works without JavaScript
+- **Component Composition**: Reusable animation wrappers
+- **State Management**: Minimal (pure CSS/GSAP)
+
+### Animation Strategy
+
+```
+Entrance Animations → Scroll Triggers → Interactions → Exits
+     (First impression)    (Engagement)    (Feedback)   (Closure)
+```
+
+### Performance Optimizations
+
+- **GPU Acceleration**: Use transforms and opacity
+- **Debouncing**: Scroll and resize event handlers
+- **Lazy Loading**: Images and heavy animations
+- **Code Splitting**: Route-based and component-based
+- **Minification**: Production builds optimized
+- **Tree Shaking**: Dead code elimination
+
+### Accessibility Considerations
+
+- `prefers-reduced-motion` media query support
+- ARIA labels for interactive elements
+- Keyboard navigation for all features
+- Screen reader-friendly content
+- High contrast color scheme
+- Focus indicators
+
+---
+
 ## About Me
 
 **Kazi Musharraf** — Frontend Engineer specializing in motion and design systems.
@@ -160,58 +254,4 @@ npm run build
 
 *Part of the 60 Projects Ecosystem — Built with motion and ☕*
 
-*Last Updated: February 2026*
-
-
-## ✨ Features
-
-This repository has been upgraded with the following features:
-
-1. **Add comprehensive error handling** ✅
-2. **Implement logging system** ✅
-3. **Add input validation** ✅
-4. **Optimize performance** ✅
-5. **Add accessibility improvements** ✅
-6. **Add documentation** ✅
-7. **Create examples** ✅
-8. **Add CI/CD pipeline** ✅
-9. **Implement monitoring** ✅
-10. **Add security headers** ✅
-
----
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## 📦 Tech Stack
-
-- Modern web framework
-- Optimized for performance
-- Responsive design
-- Accessibility ready
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/mk-knight23/03-portfolio-frontend.git
-cd 03-portfolio-frontend
-npm install
-```
-
-## 📝 License
-
-MIT
-
----
-
-*Last updated: 2026-02-27*
+*Last Updated: 2026-02-28*
