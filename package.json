@@ -8,8 +8,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy:gh": "gh-pages -d dist",
-    "deploy": "npm run build && npm run deploy:gh",
     "test:e2e": "playwright test"
   },
   "homepage": "https://mk-knight23.github.io/03-portfolio-frontend/",
@@ -19,7 +17,6 @@
   "devDependencies": {
     "@playwright/test": "^1.58.1",
     "@types/node": "^22.0.0",
-    "gh-pages": "^6.3.0",
     "typescript": "^5.9.3",
     "vite": "^6.4.1"
   }
